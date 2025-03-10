@@ -16,6 +16,10 @@ function Navbar() {
       <Link to="/card" className="font-medium hover:text-blue-100 transition duration-300 ease-in-out transform hover:scale-105 px-3 py-1 rounded-md">
         Card Page
       </Link>
+      <Link to="/form" className="font-medium hover:text-blue-100 transition duration-300 ease-in-out transform hover:scale-105 px-3 py-1 rounded-md">
+        Form
+      </Link>
+      
      
     </nav>
     <div className='mb-20'></div>

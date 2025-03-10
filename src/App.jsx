@@ -5,6 +5,7 @@ import Layout from "./components/Layout";
 import SimpleBlogPage from "./components/SimpleBlogPage";
 import Home from "./components/Naveed";
 import ProfileCard from "./components/ProfileCard";
+import FormValidation from "./components/FormValidation";
 
 function App() {
   return (
@@ -23,9 +24,11 @@ function App() {
                   image="https://upload.wikimedia.org/wikipedia/en/8/86/Avatar_Aang.png"
                   email="naveedraza2003@gmail.com"
                   phone="1234567890"
-                />
+                /> 
               }
             />
+            <Route path="/form" element={<FormValidation />} />
+
           </Route>
         </Routes>
       </Router>
